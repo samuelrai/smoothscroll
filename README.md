@@ -1,5 +1,5 @@
 # Very simple JavaScript smooth scroll
-Using vanilla JS, this is a very simple JavaScript smooth scroll script.
+Using vanilla JS, this is a very simple JavaScript smooth scroll script with ease in and out.
 
 ## How to use?
 1. Add `<script src="smoothscroll.js"></script>` inside the body tag.
