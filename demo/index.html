@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth scroll</title>
+    <style>
+      * { margin: 0; padding: 0; }
+      body {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+      }
+      span:hover {
+        cursor: pointer;
+      }
+      section {
+          width: 100%;
+          padding: 0;
+          min-height: 100dvh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      #one {
+        background: #000;
+        color: #fff;
+      }
+      #two {
+        background: #eee;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- Elements you link from -->
+  <section>
+    <p>
+      <a href="#" data-scrollto="one">Click to scroll to section 1</a><br>
+      <span data-scrollto="two">Works also on other elements, click this to scroll to section 2</span>
+    </p>
+  </section>
+
+  <!-- Elements you link to -->
+  <section id="one">
+    <h1>This is section 1</h2>
+  </section>
+  <section id="two">
+    <h1>This is section 2</h2>
+  </section>
+
+  <!-- The script -->
+  <script src="smoothscroll.js"></script>
+
+</body>
+</html>
