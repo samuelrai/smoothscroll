@@ -8,4 +8,4 @@ Using vanilla JS, this is a very simple JavaScript smooth scroll script with eas
 4. Ta-da!
 
 ## Was this helpful?
-If you are really nice, [buy me a coffee](https://buymeacoffee.com/samuelrai).
+If you are a really nice person, [buy me a coffee](https://buymeacoffee.com/samuelrai).
